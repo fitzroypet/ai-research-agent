@@ -38,8 +38,10 @@ pip install crewai langchain-openai crewai-tools python-dotenv langchain-communi
    - Get your OpenAI API key: https://platform.openai.com/api-keys
    - Get your Serper key: https://serper.dev/api-key
 
-Add keys
+Add keys in the .env file
+
 OPENAI_API_KEY=your-api-key-here
+
 SERPER_API_KEY=your-api-key-here
 
 4. Create a `.gitignore` file:
