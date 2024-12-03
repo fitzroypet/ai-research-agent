@@ -17,7 +17,7 @@ Fitzroy Meyer-Petgrave
 
 - Python 3.8+
 - OpenAI API key
-- 
+- Serper API key
 
 ## Installation
 
