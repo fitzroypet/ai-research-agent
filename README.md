@@ -17,6 +17,7 @@ Fitzroy Meyer-Petgrave
 
 - Python 3.8+
 - OpenAI API key
+- 
 
 ## Installation
 
@@ -24,6 +25,7 @@ Fitzroy Meyer-Petgrave
 
 bash
 git clone https://github.com/fitzroypet/ai-research-agent.git
+
 cd ai-research-agent
 
 2. Install required packages:
@@ -33,16 +35,22 @@ pip install crewai langchain-openai crewai-tools python-dotenv langchain-communi
 
 3. Set up your environment:
    - Create a `.env` file in the project root
-   - Add your OpenAI API key:
+   - Get your OpenAI API key: https://platform.openai.com/api-keys
+   - Get your Serper key: https://serper.dev/api-key
 
-text
+Add keys
 OPENAI_API_KEY=your-api-key-here
+SERPER_API_KEY=your-api-key-here
 
 4. Create a `.gitignore` file:
 
 text
 .env
-output/pycache/
+.venv
+__pycache__/
+output/
+.DS_Store
+.venv/
 
 
 ## Scripts
